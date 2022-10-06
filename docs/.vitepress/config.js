@@ -22,11 +22,18 @@ export default {
         ]
       },
       {
-        text: '技术点 Get',
+        text: '技术分享',
+        items: [
+          { text: '__proto__ & prototype', link: '/SkillShared/__proto__ & prototype' },
+          { text: 'ref & reactive', link: '/SkillShared/ref & reactive' },
+        ]
+      },
+      {
+        text: '记录',
         items: [
           { text: '已有技能概述', link: '/TechSummary/summary' },
           { text: '2022/10/01', link: '/TechSummary/2022-10-01' },
-          { text: '2022/10/02', link: '/TechSummary/2022-10-02' },
+          { text: '2022/10/05', link: '/TechSummary/2022-10-05' },
         ]
       }
     ],
