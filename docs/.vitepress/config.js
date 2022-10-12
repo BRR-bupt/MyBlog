@@ -24,8 +24,8 @@ export default {
       {
         text: '技术分享',
         items: [
-          { text: '__proto__ & prototype', link: '/SkillShared/__proto__ & prototype' },
-          { text: 'ref & reactive', link: '/SkillShared/ref & reactive' },
+          { text: '__proto__ & prototype', link: '/SkillShared/__proto__-prototype' },
+          { text: 'ref & reactive', link: '/SkillShared/ref-reactive' },
           { text: 'Git 工作流', link: '/SkillShared/git' },
         ]
       },
