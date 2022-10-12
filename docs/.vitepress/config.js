@@ -26,6 +26,7 @@ export default {
         items: [
           { text: '__proto__ & prototype', link: '/SkillShared/__proto__ & prototype' },
           { text: 'ref & reactive', link: '/SkillShared/ref & reactive' },
+          { text: 'Git 工作流', link: '/SkillShared/git' },
         ]
       },
       {
@@ -34,6 +35,7 @@ export default {
           { text: '已有技能概述', link: '/TechSummary/summary' },
           { text: '2022/10/01', link: '/TechSummary/2022-10-01' },
           { text: '2022/10/05', link: '/TechSummary/2022-10-05' },
+          { text: '2022/10/12', link: '/TechSummary/2022-10-12' },
         ]
       }
     ],
