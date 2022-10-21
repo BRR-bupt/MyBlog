@@ -27,6 +27,8 @@ export default {
           { text: '__proto__ & prototype', link: '/SkillShared/__proto__-prototype' },
           { text: 'ref & reactive', link: '/SkillShared/ref-reactive' },
           { text: 'Git 工作流', link: '/SkillShared/git' },
+          { text: 'Map', link: '/SkillShared/map' },
+          { text: '递归、回溯、剪枝', link: '/SkillShared/recursive' },
         ]
       },
       {
@@ -36,6 +38,7 @@ export default {
           { text: '2022/10/01', link: '/TechSummary/2022-10-01' },
           { text: '2022/10/05', link: '/TechSummary/2022-10-05' },
           { text: '2022/10/12', link: '/TechSummary/2022-10-12' },
+          { text: '2022/10/15', link: '/TechSummary/2022-10-15' },
         ]
       }
     ],
