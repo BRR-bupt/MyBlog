@@ -19,6 +19,7 @@ export default {
           { text: '视频剪辑', link: '/Projects/video-editor' },
           { text: '音乐播放器', link: '/Projects/music-player' },
           { text: '扫雷', link: '/Projects/minesweeper' },
+          { text: '记忆连连看', link: '/Projects/memory' },
         ]
       },
       {
@@ -29,6 +30,7 @@ export default {
           { text: 'Git 工作流', link: '/SkillShared/git' },
           { text: 'Map', link: '/SkillShared/map' },
           { text: '递归、回溯、剪枝', link: '/SkillShared/recursive' },
+          { text: '防抖 & 节流', link: '/SkillShared/throttle-debounce' },
         ]
       },
       {
