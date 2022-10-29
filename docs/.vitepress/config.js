@@ -23,7 +23,7 @@ export default {
         ]
       },
       {
-        text: '技术分享',
+        text: '技术点感悟',
         items: [
           { text: '__proto__ & prototype', link: '/SkillShared/__proto__-prototype' },
           { text: 'ref & reactive', link: '/SkillShared/ref-reactive' },
@@ -31,16 +31,26 @@ export default {
           { text: 'Map', link: '/SkillShared/map' },
           { text: '递归、回溯、剪枝', link: '/SkillShared/recursive' },
           { text: '防抖 & 节流', link: '/SkillShared/throttle-debounce' },
+          { text: 'css 相关', link: '/SkillShared/css' },
         ]
       },
       {
-        text: '记录',
+        text: '技术学习记录',
         items: [
           { text: '已有技能概述', link: '/TechSummary/summary' },
           { text: '2022/10/01', link: '/TechSummary/2022-10-01' },
           { text: '2022/10/05', link: '/TechSummary/2022-10-05' },
           { text: '2022/10/12', link: '/TechSummary/2022-10-12' },
           { text: '2022/10/15', link: '/TechSummary/2022-10-15' },
+        ]
+      },
+      {
+        text: '阶段日记（非技术）',
+        items: [
+          { text: '介绍', link: '/DailySummary/introduction' },
+          { text: '事件-毕业返乡风波', link: '/DailySummary/event-gohome' },
+          { text: '事件-家教经历', link: '/DailySummary/event-jiajiao' },
+          { text: '22/10', link: '/DailySummary/22-10' },
         ]
       }
     ],
