@@ -50,6 +50,7 @@ export default {
           { text: '介绍', link: '/DailySummary/introduction' },
           { text: '事件-毕业返乡风波', link: '/DailySummary/event-gohome' },
           { text: '事件-家教经历', link: '/DailySummary/event-jiajiao' },
+          { text: '事件-研究生方向抉择', link: '/DailySummary/event-yjschoose' },
           { text: '22/10', link: '/DailySummary/22-10' },
         ]
       }
