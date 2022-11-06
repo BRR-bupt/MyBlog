@@ -1,21 +1,44 @@
 # 防抖 & 节流
-本质上是优化高频率执行代码的一种手段
+防抖和节流是为了限制过度频繁的触发事件，消耗过大资源。
 
-如：浏览器的 resize、scroll、keypress、mousemove 等事件在触发时，会不断地调用绑定在事件上的回调函数，极大地浪费资源，降低前端性能
+一般的，防抖和节流我们都采用lodash现成的函数实现。
 
-为了优化体验，需要对这类事件进行调用次数的限制，对此我们就可以采用throttle（节流）和debounce（防抖）的方式来减少调用频率
+```bash
+npm install -S lodash
+# ts
+npm install -D @types/lodash
+```
 
-定义
 
-节流: n 秒内只运行一次，若在 n 秒内重复触发，只有一次生效
-防抖: n 秒后在执行该事件，若在 n 秒内被重复触发，则重新计时
+## 防抖
+何为防抖，以按键button为例，短时间内重复点击该按键，只触发一次处理函数，且为最后一次点击触发，即消除短时间内之前点击的效果。
 
-一个经典的比喻:
+## 节流
+何为节流，以按键button为例，短时间内重复点击该按键，只触发一次处理函数，且为第一次点击触发，即取消短时间内之后点击的效果。
 
-想象每天上班大厦底下的电梯。把电梯完成一次运送，类比为一次函数的执行和响应
+## 代码实现
+```vue
+<script setup lang="ts">
+import _ from 'lodash'
+const debounce = _.debounce(() => {
+  console.log('debounce')
+}, 2000)
 
-假设电梯有两种运行策略 debounce 和 throttle，超时设定为15秒，不考虑容量限制
+const throttle = _.throttle(() => {
+  console.log('throttle')
+}, 2000, {
+  trailing: false,
+})
+</script>
 
-电梯第一个人进来后，15秒后准时运送一次，这是节流
-
-电梯第一个人进来后，等待15秒。如果过程中又有人进来，15秒等待重新计时，直到15秒后开始运送，这是防抖
+<template>
+  <div class="main">
+    <button @click="debounce">
+      debounce
+    </button>
+    <button @click="throttle">
+      throttle
+    </button>
+  </div>
+</template>
+```

@@ -32,6 +32,9 @@ export default {
           { text: '递归、回溯、剪枝', link: '/SkillShared/recursive' },
           { text: '防抖 & 节流', link: '/SkillShared/throttle-debounce' },
           { text: 'css 相关', link: '/SkillShared/css' },
+          { text: '详解 npm 包', link: '/SkillShared/npm-package' },
+          { text: 'SSR', link: '/SkillShared/ssr.md' },
+          { text: 'Vite 相关配置', link: '/SkillShared/vite-config.md' },
         ]
       },
       {
@@ -42,6 +45,7 @@ export default {
           { text: '2022/10/05', link: '/TechSummary/2022-10-05' },
           { text: '2022/10/12', link: '/TechSummary/2022-10-12' },
           { text: '2022/10/15', link: '/TechSummary/2022-10-15' },
+          { text: '2022/11/01', link: '/TechSummary/2022-11-01' },
         ]
       },
       {
