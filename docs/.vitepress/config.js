@@ -10,6 +10,7 @@ export default {
           { text: '成长历程', link: '/BasicIntroduction/growth-experience' },
           { text: '犹豫与抉择', link: '/BasicIntroduction/hesitate-decide' },
           { text: '未来展望', link: '/BasicIntroduction/future-outlook' },
+          { text: '开源相关', link: '/BasicIntroduction/open-source' },
         ]
       },
       {
@@ -33,8 +34,10 @@ export default {
           { text: '防抖 & 节流', link: '/SkillShared/throttle-debounce' },
           { text: 'css 相关', link: '/SkillShared/css' },
           { text: '详解 npm 包', link: '/SkillShared/npm-package' },
-          { text: 'SSR', link: '/SkillShared/ssr.md' },
-          { text: 'Vite 相关配置', link: '/SkillShared/vite-config.md' },
+          { text: 'SSR', link: '/SkillShared/ssr' },
+          { text: 'Vite 相关配置', link: '/SkillShared/vite-config' },
+          { text: 'Proxy', link: '/SkillShared/proxy' },
+          { text: 'Ts-declare', link: '/SkillShared/ts-declare' },
         ]
       },
       {
@@ -46,6 +49,7 @@ export default {
           { text: '2022/10/12', link: '/TechSummary/2022-10-12' },
           { text: '2022/10/15', link: '/TechSummary/2022-10-15' },
           { text: '2022/11/01', link: '/TechSummary/2022-11-01' },
+          { text: '2022/11/08', link: '/TechSummary/2022-11-08' },
         ]
       },
       {
@@ -56,6 +60,7 @@ export default {
           { text: '事件-家教经历', link: '/DailySummary/event-jiajiao' },
           { text: '事件-研究生方向抉择', link: '/DailySummary/event-yjschoose' },
           { text: '22/10', link: '/DailySummary/22-10' },
+          { text: '22/11', link: '/DailySummary/22-11' },
         ]
       }
     ],
