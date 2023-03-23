@@ -6,9 +6,9 @@
 我的GitHub链接： [BRR-bupt/minesweeper](https://github.com/BRR-bupt/minesweeper)
 
 ## Demo
-[网页链接](https://buptyi.xyz:3333/)
+[网页链接](https://mineswepper.netlify.app/)
 
-![首页截图](https://buptyi.xyz:5000/minesweeper.png)
+![首页截图](../asset/minesweeper.png)
 
 
 ## 🚀 Features

@@ -1,12 +1,14 @@
-# 视频剪辑
-这个项目是我的毕业设计项目，一个具有基本视频剪辑功能的网站
+# worthTyping
+让打字更有意义！
 
-[Github 链接](https://github.com/BRR-bupt/bupt-yi)
+这是一个打字网站，文章可选择古文、现代文、英文，所选篇目具有一定的文学价值，并附有古文注释与知识解析，让用户在打字测速的同时，获得有意义的文化熏陶。
+
+[Github 链接](https://github.com/BRR-bupt/worth-typing)
 
 ## Demo
-[网页链接](https://buptyi.netlify.app/)
+[网页链接](https://worthtyping.netlify.app/)
 
-![首页截图](../asset/video-editor.png)
+![首页截图](../asset/worth-typing.png)
 
 
 ## 🚀 Features
@@ -34,7 +36,5 @@ pnpm run build
 ## 📄 License
 
 **MIT License** © 2022-PRESENT [baoruirui](https://github.com/BRR-bupt)
-
-
 
 

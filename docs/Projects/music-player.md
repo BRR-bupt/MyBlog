@@ -4,7 +4,7 @@
 ## Demo
 [网页链接](http://buptyi.xyz:7000)
 
-![首页截图](https://buptyi.xyz:5000/index.png)
+![首页截图](../asset/music.png)
 
 
 ## 🚀 Features

@@ -21,6 +21,7 @@ export default {
           { text: '音乐播放器', link: '/Projects/music-player' },
           { text: '扫雷', link: '/Projects/minesweeper' },
           { text: '记忆连连看', link: '/Projects/memory' },
+          { text: 'worthTyping', link: '/Projects/worth-typing' },
         ]
       },
       {

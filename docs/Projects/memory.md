@@ -4,9 +4,9 @@
 [Github 链接](https://github.com/BRR-bupt/Memory)
 
 ## Demo
-[网页链接](https://buptyi.xyz:8080/)
+[网页链接](https://brrmemory.netlify.app/)
 
-![首页截图](https://buptyi.xyz:8080/memory.jpg)
+![首页截图](../asset/memory.png)
 
 
 ## 🚀 Features
