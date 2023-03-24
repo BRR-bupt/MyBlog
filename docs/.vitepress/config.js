@@ -39,6 +39,7 @@ export default {
           { text: 'Vite 相关配置', link: '/SkillShared/vite-config' },
           { text: 'Proxy', link: '/SkillShared/proxy' },
           { text: 'Ts-declare', link: '/SkillShared/ts-declare' },
+          { text: 'VNode', link: '/SkillShared/vnode' },
         ]
       },
       {
