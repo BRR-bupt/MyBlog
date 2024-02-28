@@ -13,7 +13,7 @@
   "author": "baoruirui",
   "license": "MIT",
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.17",
+    "vitepress": "^1.0.0-rc.44",
     "vue": "^3.2.40"
   }
 }
