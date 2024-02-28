@@ -22,6 +22,7 @@ export default {
           { text: '扫雷', link: '/Projects/minesweeper' },
           { text: '记忆连连看', link: '/Projects/memory' },
           { text: 'worthTyping', link: '/Projects/worth-typing' },
+          { text: '摄影集', link: '/Projects/gallery' },
         ]
       },
       {
@@ -40,6 +41,7 @@ export default {
           { text: 'Proxy', link: '/SkillShared/proxy' },
           { text: 'Ts-declare', link: '/SkillShared/ts-declare' },
           { text: 'VNode', link: '/SkillShared/vnode' },
+          { text: 'Event-Loop', link: '/SkillShared/event-loop' },
         ]
       },
       {
@@ -68,7 +70,7 @@ export default {
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present baoruirui'
+      copyright: 'Copyright © 2024-present baoruirui'
     }
   }
 }

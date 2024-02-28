@@ -9,6 +9,10 @@
 
 注意：watch监听可以实现类似响应式数据的功能，但还是有许多不同，不能做同类理解。
 
+## 简述响应式原理
+对于ref和vue2响应式，是基于Object.defineProperty()实现的，之后当依赖项的 setter 触发时，会通知 watcher，从而使它关联的组件重新渲染。
+[vue2 官网说明](https://v2.cn.vuejs.org/v2/guide/reactivity.html)
+
 ## ref & reactive 使用
 `ref` 包装基本类型，创建出 `refImpl` 引用类型，原理是使用 `Object.defineProperty()` 添加 get 和 set 方法，等同于 Vue2 响应式
 
