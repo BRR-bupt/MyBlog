@@ -71,7 +71,6 @@ export default {
         text: '面试',
         items: [
           { text: '介绍', link: '/Interview/introduction' },
-          // { text: 'Html', link: '/Interview/Html' },
           { text: 'Css', link: '/Interview/Css' },
           { text: 'JavaScript', link: '/Interview/JavaScript' },
           { text: '工具', link: '/Interview/工具' },
