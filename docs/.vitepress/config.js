@@ -66,6 +66,22 @@ export default {
           { text: '22/10', link: '/DailySummary/22-10' },
           { text: '22/11', link: '/DailySummary/22-11' },
         ]
+      },
+      {
+        text: '面试',
+        items: [
+          { text: '介绍', link: '/Interview/introduction' },
+          // { text: 'Html', link: '/Interview/Html' },
+          { text: 'Css', link: '/Interview/Css' },
+          { text: 'JavaScript', link: '/Interview/JavaScript' },
+          { text: '工具', link: '/Interview/工具' },
+          { text: '计算机操作系统', link: '/Interview/计算机操作系统' },
+          { text: '计算机网络', link: '/Interview/计算机网络' },
+          { text: '面试记录', link: '/Interview/面试记录' },
+          { text: '算法', link: '/Interview/算法' },
+          { text: '智力题', link: '/Interview/智力题' },
+          { text: '剑指offer', link: '/Interview/剑指offer' },
+        ]
       }
     ],
     footer: {
