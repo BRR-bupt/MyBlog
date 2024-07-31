@@ -4,7 +4,7 @@ layout: home
 hero:
   name: My Blog
   text: Growth & Dev-Tech Sharing Platform
-  tagline: TypeScript, Vue, Vite ...
+  tagline: TypeScript, Vue & React, Vite ...
   # image:
   #   src: /logo.png
   #   alt: VitePress
@@ -21,7 +21,7 @@ features:
     title: TypeScript
     details: Provides full type checking
   - icon: 🖖
-    title: Vue
+    title: Vue & React
     details: Prowerful and Popular framework
   - icon: ⚡️
     title: Vite
