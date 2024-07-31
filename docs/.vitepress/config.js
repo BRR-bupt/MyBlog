@@ -42,6 +42,7 @@ export default {
           { text: 'Ts-declare', link: '/SkillShared/ts-declare' },
           { text: 'VNode', link: '/SkillShared/vnode' },
           { text: 'Event-Loop', link: '/SkillShared/event-loop' },
+          { text: 'React哲学', link: '/SkillShared/react' },
         ]
       },
       {
@@ -54,6 +55,7 @@ export default {
           { text: '2022/10/15', link: '/TechSummary/2022-10-15' },
           { text: '2022/11/01', link: '/TechSummary/2022-11-01' },
           { text: '2022/11/08', link: '/TechSummary/2022-11-08' },
+          { text: '2024/08/01', link: '/TechSummary/2024-08-01' },
         ]
       },
       {
@@ -65,6 +67,7 @@ export default {
           { text: '事件-研究生方向抉择', link: '/DailySummary/event-yjschoose' },
           { text: '22/10', link: '/DailySummary/22-10' },
           { text: '22/11', link: '/DailySummary/22-11' },
+          { text: '24/08', link: '/DailySummary/24-08' },
         ]
       },
       {
@@ -73,6 +76,7 @@ export default {
           { text: '介绍', link: '/Interview/introduction' },
           { text: 'Css', link: '/Interview/Css' },
           { text: 'JavaScript', link: '/Interview/JavaScript' },
+          { text: 'GPT问答', link: '/Interview/GPT问答' },
           { text: '工具', link: '/Interview/工具' },
           { text: '计算机操作系统', link: '/Interview/计算机操作系统' },
           { text: '计算机网络', link: '/Interview/计算机网络' },
