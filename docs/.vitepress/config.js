@@ -43,6 +43,7 @@ export default {
           { text: 'VNode', link: '/SkillShared/vnode' },
           { text: 'Event-Loop', link: '/SkillShared/event-loop' },
           { text: 'React哲学', link: '/SkillShared/react' },
+          { text: 'Web3d性能优化', link: '/SkillShared/web3d性能优化' },
         ]
       },
       {
@@ -73,6 +74,7 @@ export default {
       {
         text: '面试',
         items: [
+          { text: '感悟', link: '/Interview/感悟' },
           { text: '介绍', link: '/Interview/introduction' },
           { text: 'Css', link: '/Interview/Css' },
           { text: 'JavaScript', link: '/Interview/JavaScript' },
