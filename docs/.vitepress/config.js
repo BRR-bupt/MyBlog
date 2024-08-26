@@ -44,6 +44,7 @@ export default {
           { text: 'Event-Loop', link: '/SkillShared/event-loop' },
           { text: 'React哲学', link: '/SkillShared/react' },
           { text: 'Diff', link: '/SkillShared/diff' },
+          { text: 'Vue & React', link: '/SkillShared/vue & react' },
           { text: 'Web3d性能优化', link: '/SkillShared/web3d性能优化' },
         ]
       },
